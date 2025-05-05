@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEJOSOLUCIONES - Soluciones Tecnológicas para Problemas Cotidianos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo-titulo">
+                <img id="icono1" src="/placeholder.svg?height=60&width=60" alt="ALEJOSOLUCIONES">
+                <h1 id="superior">ALEJOSOLUCIONES</h1>
+            </div>
+            <nav class="navbar">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="menu">
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#nosotros">Nosotros <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#mision">Misión</a>
+                            <a href="#vision">Visión</a>
+                            <a href="#principios">Principios</a>
+                        </div>
+                    </li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#" class="btn-primary">Solicitar Demo</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section with Slider -->
+    <section id="inicio" class="hero">
+        <div class="slider">
+            <input type="radio" name="radio-btn" id="radio1" checked>
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slides">
+                <div class="slide first">
+                    <div class="slide-content">
+                        <h2>Soluciones Tecnológicas para tu Día a Día</h2>
+                        <p>Transformamos problemas cotidianos en oportunidades con tecnología accesible y eficiente.</p>
+                        <a href="#contacto" class="btn-hero">Conoce más</a>
+                    </div>
+                    <img src="/placeholder.svg?height=600&width=1200" alt="Soluciones Tecnológicas">
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <h2>Innovación al Alcance de Todos</h2>
+                        <p>Desarrollamos herramientas que simplifican tu vida y optimizan tus tareas diarias.</p>
+                        <a href="#servicios" class="btn-hero">Ver servicios</a>
+                    </div>
+                    <img src="/placeholder.svg?height=600&width=1200" alt="Innovación Tecnológica">
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <h2>Expertos en Resolver Problemas</h2>
+                        <p>Nuestro equipo está comprometido con encontrar la solución perfecta para tus necesidades.</p>
+                        <a href="#nosotros" class="btn-hero">Conócenos</a>
+                    </div>
+                    <img src="/placeholder.svg?height=600&width=1200" alt="Equipo de Expertos">
+                </div>
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bienvenido a ALEJOSOLUCIONES</h2>
+                <p class="subtitle">Tecnología que simplifica tu vida</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>En ALEJOSOLUCIONES nos dedicamos a crear soluciones tecnológicas innovadoras para resolver problemas cotidianos. Nuestro enfoque combina simplicidad, eficiencia y accesibilidad para transformar la manera en que interactúas con la tecnología en tu día a día.</p>
+                    
+                    <div id="mision" class="about-card">
+                        <h3><i class="fas fa-bullseye"></i> Nuestra Misión</h3>
+                        <p>Desarrollar herramientas tecnológicas que simplifiquen la vida de las personas, haciendo que la tecnología sea accesible y útil para resolver problemas cotidianos.</p>
+                    </div>
+                    
+                    <div id="vision" class="about-card">
+                        <h3><i class="fas fa-eye"></i> Nuestra Visión</h3>
+                        <p>Ser líderes en la creación de soluciones tecnológicas que transformen positivamente la vida diaria de las personas, contribuyendo a una sociedad más eficiente y conectada.</p>
+                    </div>
+                    
+                    <div id="principios" class="about-card">
+                        <h3><i class="fas fa-handshake"></i> Nuestros Principios</h3>
+                        <ul>
+                            <li>Innovación constante</li>
+                            <li>Simplicidad en el diseño</li>
+                            <li>Accesibilidad para todos</li>
+                            <li>Compromiso con la calidad</li>
+                            <li>Responsabilidad social</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="/placeholder.svg?height=500&width=500" alt="ALEJOSOLUCIONES Team">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios</h2>
+                <p class="subtitle">Soluciones a medida para tus necesidades</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicaciones Móviles</h3>
+                    <p>Desarrollamos apps intuitivas que resuelven problemas específicos del día a día, desde gestión de tareas hasta automatización del hogar.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Software Personalizado</h3>
+                    <p>Creamos soluciones de software a medida que optimizan tus procesos cotidianos y aumentan tu productividad.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Domótica</h3>
+                    <p>Implementamos sistemas inteligentes para tu hogar que mejoran tu calidad de vida y reducen el consumo energético.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automatización</h3>
+                    <p>Automatizamos tareas repetitivas para que puedas enfocarte en lo que realmente importa, ahorrando tiempo y esfuerzo.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Consultoría Tecnológica</h3>
+                    <p>Te asesoramos sobre las mejores soluciones tecnológicas para tus problemas específicos, con un enfoque práctico y accesible.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad Digital</h3>
+                    <p>Protegemos tu información y dispositivos con soluciones de seguridad adaptadas a usuarios no técnicos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Advantages Section -->
+    <section class="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Por qué elegirnos?</h2>
+                <p class="subtitle">Ventajas que nos distinguen</p>
+            </div>
+            
+            <div class="advantages-content">
+                <div class="advantages-image">
+                    <img src="/placeholder.svg?height=500&width=600" alt="Ventajas ALEJOSOLUCIONES">
+                </div>
+                
+                <div class="advantages-list">
+                    <div class="advantage-item">
+                        <div class="advantage-number">01</div>
+                        <div class="advantage-text">
+                            <h3>Soluciones a medida</h3>
+                            <p>Desarrollamos tecnología personalizada que se adapta perfectamente a tus necesidades específicas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-item">
+                        <div class="advantage-number">02</div>
+                        <div class="advantage-text">
+                            <h3>Tecnología accesible</h3>
+                            <p>Creamos soluciones fáciles de usar, incluso para personas sin conocimientos técnicos avanzados.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-item">
+                        <div class="advantage-number">03</div>
+                        <div class="advantage-text">
+                            <h3>Soporte continuo</h3>
+                            <p>Te acompañamos en todo momento, asegurando que nuestras soluciones funcionen perfectamente.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="advantage-item">
+                        <div class="advantage-number">04</div>
+                        <div class="advantage-text">
+                            <h3>Innovación constante</h3>
+                            <p>Nos mantenemos a la vanguardia para ofrecerte siempre las soluciones más avanzadas y eficientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p class="subtitle">Experiencias reales con nuestras soluciones</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"ALEJOSOLUCIONES transformó la manera en que gestiono mi hogar. Su sistema de domótica es intuitivo y ha reducido significativamente mis gastos energéticos."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=80&width=80" alt="Cliente">
+                        <div class="author-info">
+                            <h4>María González</h4>
+                            <p>Propietaria de vivienda</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"La aplicación que desarrollaron para mi pequeño negocio ha automatizado procesos que antes me tomaban horas. Ahora puedo dedicar ese tiempo a lo que realmente importa."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=80&width=80" alt="Cliente">
+                        <div class="author-info">
+                            <h4>Carlos Rodríguez</h4>
+                            <p>Emprendedor</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Su consultoría tecnológica me ayudó a entender qué soluciones necesitaba realmente. Aprecio mucho su enfoque claro y sin tecnicismos innecesarios."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/placeholder.svg?height=80&width=80" alt="Cliente">
+                        <div class="author-info">
+                            <h4>Laura Martínez</h4>
+                            <p>Profesional independiente</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contáctanos</h2>
+                <p class="subtitle">Estamos aquí para ayudarte</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Av. Tecnológica 123, Ciudad Innovación</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+34 123 456 789</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@alejosoluciones.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option value="" disabled selected>Selecciona un servicio</option>
+                                <option value="app">Aplicaciones Móviles</option>
+                                <option value="software">Software Personalizado</option>
+                                <option value="domotica">Domótica</option>
+                                <option value="automatizacion">Automatización</option>
+                                <option value="consultoria">Consultoría Tecnológica</option>
+                                <option value="seguridad">Seguridad Digital</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Cuéntanos sobre tu proyecto o consulta" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/placeholder.svg?height=50&width=50" alt="ALEJOSOLUCIONES">
+                    <h3>ALEJOSOLUCIONES</h3>
+                    <p>Soluciones tecnológicas para problemas cotidianos</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#servicios">Aplicaciones Móviles</a></li>
+                        <li><a href="#servicios">Software Personalizado</a></li>
+                        <li><a href="#servicios">Domótica</a></li>
+                        <li><a href="#servicios">Automatización</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Suscríbete a nuestro boletín</h4>
+                    <p>Recibe las últimas novedades y consejos tecnológicos</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 ALEJOSOLUCIONES. Todos los derechos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Términos y condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple slider functionality
+        let counter = 1;
+        setInterval(function() {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 3) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+</body>
+</html>
